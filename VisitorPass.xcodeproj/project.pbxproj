@@ -16,6 +16,7 @@
 		1BE3C0071C1BB78B00138F42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BE3C0051C1BB78B00138F42 /* LaunchScreen.storyboard */; };
 		1BE3C0121C1BB78B00138F42 /* VisitorPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3C0111C1BB78B00138F42 /* VisitorPassTests.m */; };
 		1BE3C01D1C1BB78B00138F42 /* VisitorPassUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE3C01C1C1BB78B00138F42 /* VisitorPassUITests.m */; };
+		CEE3680F1C2B57D300928C8F /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE3680E1C2B57D300928C8F /* CameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1BE3C0181C1BB78B00138F42 /* VisitorPassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitorPassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BE3C01C1C1BB78B00138F42 /* VisitorPassUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorPassUITests.m; sourceTree = "<group>"; };
 		1BE3C01E1C1BB78B00138F42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE3680E1C2B57D300928C8F /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		CEE368101C2B57EB00928C8F /* CameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 		1BE3BFF31C1BB78B00138F42 /* VisitorPass */ = {
 			isa = PBXGroup;
 			children = (
+				CEE368101C2B57EB00928C8F /* CameraViewController.h */,
+				CEE3680E1C2B57D300928C8F /* CameraViewController.m */,
 				1BE3BFF71C1BB78B00138F42 /* AppDelegate.h */,
 				1BE3BFF81C1BB78B00138F42 /* AppDelegate.m */,
 				1BE3BFFA1C1BB78B00138F42 /* ViewController.h */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE3680F1C2B57D300928C8F /* CameraViewController.m in Sources */,
 				1BE3BFFC1C1BB78B00138F42 /* ViewController.m in Sources */,
 				1BE3BFF91C1BB78B00138F42 /* AppDelegate.m in Sources */,
 				1BE3BFF61C1BB78B00138F42 /* main.m in Sources */,
@@ -502,6 +508,7 @@
 				1BE3C0231C1BB78B00138F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE3C0241C1BB78B00138F42 /* Build configuration list for PBXNativeTarget "VisitorPassTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				1BE3C0261C1BB78B00138F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BE3C0271C1BB78B00138F42 /* Build configuration list for PBXNativeTarget "VisitorPassUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				1BE3C0291C1BB78B00138F42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
